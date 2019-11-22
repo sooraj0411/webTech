@@ -1,0 +1,137 @@
+.sidenav {
+    height: 85%; 
+    width: 15%; 
+    position: fixed; 
+    top: 10%; 
+    left: 0%;
+    background-color:white;
+    border-color:skyblue;
+    border-radius:0rem 1rem 1rem 0rem;
+    border-width:0.1rem;
+    border-style:solid;
+  }
+  
+
+
+  .sidenav a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #818181;
+    display: block;
+    border-bottom-style:solid;
+    border-bottom-color:skyblue;
+    border-bottom-width: 0.1em;
+  }
+  
+
+  .sidenav a:hover {
+    color: skyblue;
+  }
+
+  .sidenav p{
+    color:skyblue;
+    font-size:1.5rem;
+    border-bottom-style:solid;
+    border-width:0.1rem;
+    border-color:skyblue;
+    text-align:center;
+    border-radius:0rem 1rem 0rem 0rem;
+    background:skyblue;
+    color:white;
+  }
+
+
+
+  .bottomnav{
+      height:30%;
+      width:70%;
+      position:fixed;
+      bottom:0;
+      left:20%;
+      border-style:solid;
+      border-color:skyblue;
+      border-radius:2rem 2rem 0rem 0rem;
+      border-width:0.1rem;
+  }
+
+  .bottomnav a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 1rem;
+    color: #818181;
+    display: block;
+    border-bottom-style:solid;
+    border-bottom-color:skyblue;
+    border-bottom-width: 0.1em;
+  }
+
+  .bottomnav p{
+      color:skyblue;
+      font-size:1.5rem;
+      text-align:center;
+      border-bottom-style:solid;
+      border-width:0.1rem;
+      border-color:skyblue;
+      border-radius:2rem 2rem 0rem 0rem;
+      background:skyblue;
+      color:white;
+  }
+
+
+  textarea{
+    overflow: scroll;
+    resize: none;
+    position:fixed;
+    left:30%;
+    top:10%;
+    padding: 7px;
+    
+  }
+
+  textarea:active{
+      box-shadow:"0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19)";
+      outline:none;
+      box-shadow: inset 2px 2px 2px 0px #dddddd;
+  }
+
+  textarea:focus{
+    box-shadow:"0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19)";
+    outline:none;
+    box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: skyblue;; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(89, 181, 197); 
+    cursor: pointer;
+  }
+
+  button {
+    background-color: skyblue; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    position:absolute;
+    right:20.5%;
+    bottom:40%;
+    font-size:1rem;
+    padding:0.5rem 1rem;
+  }
+

@@ -1,0 +1,28 @@
+.navbar-round{
+    margin-left:10%;
+    margin-right:10%;
+    border-radius:0rem 0rem 2rem 2rem;
+}
+
+
+.abs-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item .nav-link{
+    color:white;
+    border-style:none;
+    width:6rem;
+    text-align:center;
+    border-radius:2rem;
+}
+
+.nav-item .nav-link:hover{
+    background: teal;
+}
+
+.active{
+    background: teal;
+}
